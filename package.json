@@ -1,0 +1,30 @@
+{
+  "name": "color",
+  "version": "1.0.0",
+  "description": "",
+  "main": "telegram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node telegram.js",
+    "dev": "nodemon telegram.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-basic-auth": "^1.2.1",
+    "generate-password": "^1.7.0",
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.56.0",
+    "telegram": "^2.5.22",
+    "tg-resolve": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
